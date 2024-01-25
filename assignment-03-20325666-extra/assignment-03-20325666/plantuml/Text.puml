@@ -1,0 +1,14 @@
+@startuml
+class Text {
+    + Text()
+    + Text(x:string, y:string, font:string, className:string, text:string)
+    + setFill(fill:string) : void
+    + getFill() : string
+    + setStroke(stroke:string) : void
+    + getStroke() : string
+    + setStrokeWidth(strokewidth:string) : void
+    + getStrokeWidth() : string
+    + getShapeAttribute() : string
+}
+Shape <|-- Text
+@enduml

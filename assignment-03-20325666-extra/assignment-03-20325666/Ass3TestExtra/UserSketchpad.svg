@@ -1,0 +1,12 @@
+<svg height="1080" width="800">
+<style>
+.heavy {
+font: italic 20px sans-serif;
+fill: black;
+}
+</style>
+<text x="98" y="18" class="heavy">This Text is Placed on Your SVG Canvas</text>
+<circle cx="43" cy="52" r="42" stroke="black" stroke-width="1" fill="red"/>
+
+
+</svg>

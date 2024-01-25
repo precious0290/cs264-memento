@@ -1,0 +1,16 @@
+@startuml
+class Canvas {
+    + Canvas()
+    + AddShape(shape:string) : void
+    + ShapesDrawnList() : void
+    + GetShapeDrawnList() : string
+    + DeleteShape(del:string) : void
+    + RemoveShape() : void
+    + ClearCanvas() : void
+    + UpdateShapeName(shape:string) : string
+    + UpdateShapeAttributes(index:int, shapeUpdate:string) : void
+    + removeExtra(index:int) : void
+    + ChangeShapeZindex(shape:string, zindex:string) : void
+    + SwapZindexes(zindex1:string, zindex2:string) : void
+}
+@enduml

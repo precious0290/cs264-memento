@@ -1,0 +1,11 @@
+@startuml
+class Memento {
+    + Memento()
+    + AddHistory(memento:string) : void
+    + Undo() : string
+    + Redo() : string
+    + clearRedoList() : void
+    + getHistory() : ArrayList
+    + printHistory() : void
+}
+@enduml

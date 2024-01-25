@@ -1,0 +1,12 @@
+<svg height="1080" width="800">
+<style>
+.heavy {
+font: italic 60px sans-serif;
+fill: blue;
+}
+</style>
+<text x="560"" y=450" class="heavy">Hello Bitches What is goooooood</text>
+<circle cx="500" cy="300" r="200" stroke="black" stroke-width="1" fill="red"/>
+
+
+</svg>
